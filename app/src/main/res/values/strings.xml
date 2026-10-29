@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AGron</string>
+    <string name="search_or_enter_url">Arama yapın veya web adresi girin</string>
+    <string name="voice_search">Sesli Arama</string>
+    <string name="bookmarks">Yer İmleri</string>
+    <string name="history">Geçmiş</string>
+    <string name="settings">Ayarlar</string>
+    <string name="tabs">Sekmeler</string>
+    <string name="new_tab">Yeni Sekme</string>
+    <string name="new_incognito_tab">Gizli Sekme</string>
+    <string name="clear_history">Geçmişi Temizle</string>
+    <string name="adblock_active">Reklam Engelleyici Aktif</string>
+    <string name="virtual_mouse">Sanal Fare</string>
+    <string name="desktop_mode">Masaüstü Modu</string>
+    <string name="tv_mode">TV Modu</string>
+</resources>

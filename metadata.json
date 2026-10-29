@@ -1,0 +1,6 @@
+{
+  "name": "AGron",
+  "description": "Android TV Boxlar için optimize edilmiş, uzaktan kumanda ve sanal fare destekli, reklam engelleyicili hızlı web tarayıcısı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
