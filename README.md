@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="agron-tv.apk"><b>[ Hemen İndir (agron-tv.apk) ]</b></a> • 
-  <a href="https://ais-pre-i4g63skk5knsxhw37e5csy-843862008709.europe-west2.run.app"><b>[ Canlı Önizleme ]</b></a>
+  <a href="https://aydannadya31.github.io/AGron/"><b>[ Canlı İndirme Sayfası ]</b></a>
 </p>
 
 ---
@@ -42,6 +42,8 @@
 
 ## 📱 İndirme & QR Kod ile Kurulum
 
+**Canlı site:** https://aydannadya31.github.io/AGron/  (GitHub Pages, `main` / `/docs`)
+
 Bu depoda yer alan **`index.html`** ve **`docs/index.html`** web sayfası, GitHub Pages üzerinden canlı yayınlandığında:
 1. **İndir Butonu:** `agron-tv.apk` dosyasını doğrudan indirir.
 2. **QR Kod:** Butonun hemen altındaki QR kodu telefonunuz veya Android TV'nizin kamerası/tarayıcısıyla okutarak APK'yı anında indirebilirsiniz.
@@ -58,15 +60,11 @@ Bu depoda yer alan **`index.html`** ve **`docs/index.html`** web sayfası, GitHu
 
 ---
 
-## 🌐 GitHub Pages Canlı Yayın Kurulumu
+## 🌐 GitHub Pages Canlı Yayın Durumu
 
-Projeyi GitHub'a aktardıktan sonra web sitesini canlı yayınlamak için:
-1. GitHub deponuzda **Settings (Ayarlar)** sekmesine gidin.
-2. Sol menüden **Pages** seçeneğine tıklayın.
-3. **Build and deployment > Branch:**
-   - Dal olarak `main` seçin.
-   - Klasör olarak `/ (root)` veya `/docs` seçin.
-4. **Save (Kaydet)** butonuna tıklayın. Birkaç saniye içinde siteniz `https://<kullanici-adiniz>.github.io/<repo-adi>/` adresinde canlı yayına geçecektir!
+Site **yayında**: https://aydannadya31.github.io/AGron/
+
+Kaynak: `main` dalı, `/docs` klasörü (GitHub Pages → Settings → Pages → Deploy from a branch → `main` / `/docs`). Klasördeki `index.html`, `agron_logo.png` ve `agron-tv.apk` otomatik olarak yayınlanır; QR kodu `agron-qr.png` dosyasıdır.
 
 ---
 

@@ -12,9 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- QRCode.js Library -->
-    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
-
     <style>
         :root {
             --bg-color: #0B0E14;
@@ -234,7 +231,7 @@
             margin-bottom: 14px;
         }
 
-        #qrcode canvas, #qrcode img {
+        .qr-wrapper img {
             display: block;
             border-radius: 8px;
         }
@@ -382,7 +379,7 @@
                 </div>
             </a>
             <div class="nav-badge">
-                ● Canlı Web Sürümü
+                ● Stabil Sürüm v1.0.0
             </div>
         </div>
     </nav>
@@ -410,7 +407,7 @@
                 <!-- QR Code Block directly under download link -->
                 <div class="qr-section">
                     <div class="qr-wrapper">
-                        <div id="qrcode"></div>
+                        <img src="agron-qr.png" alt="AGron TV APK indirme QR kodu" width="180" height="180">
                     </div>
                     <div class="qr-badge">📱 QR Kod ile Hızlı İndirme</div>
                     <div class="qr-caption">
@@ -487,42 +484,10 @@
         <div class="container">
             <p>© 2026 <strong>AGron</strong> - Android TV & TV Box Web Tarayıcısı. Tüm hakları saklıdır.</p>
             <p style="margin-top: 6px; font-size: 11px; opacity: 0.7;">
-                GitHub Pages ile canlı yayında • Projeyi GitHub'a aktarmak için AI Studio üst menüsünü kullanabilirsiniz.
+                GitHub Pages ile canlı yayında • Kaynak kod: <a href="https://github.com/aydannadya31/AGron" target="_blank" rel="noopener">GitHub</a> • Sürüm: <a href="https://github.com/aydannadya31/AGron/releases/tag/v1.0" target="_blank" rel="noopener">v1.0</a>
             </p>
         </div>
     </footer>
 
-    <!-- QR Code Script -->
-    <script>
-        function generateQRCode() {
-            // Determine the current absolute URL to the APK
-            var currentUrl = window.location.href;
-            var apkUrl = new URL("agron-tv.apk", currentUrl).href;
-
-            var qrContainer = document.getElementById("qrcode");
-            qrContainer.innerHTML = "";
-
-            if (typeof QRCode !== 'undefined') {
-                new QRCode(qrContainer, {
-                    text: apkUrl,
-                    width: 180,
-                    height: 180,
-                    colorDark: "#0B0E14",
-                    colorLight: "#FFFFFF",
-                    correctLevel: QRCode.CorrectLevel.M
-                });
-            } else {
-                // Fallback image generator
-                var img = document.createElement("img");
-                img.src = "https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=" + encodeURIComponent(apkUrl);
-                img.alt = "İndirme QR Kodu";
-                img.width = 180;
-                img.height = 180;
-                qrContainer.appendChild(img);
-            }
-        }
-
-        window.addEventListener('DOMContentLoaded', generateQRCode);
-    </script>
 </body>
 </html>
